@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Recommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+<header>
+    <h1>Anime Recommender</h1>
+    <p>Discover your next favorite anime!</p>
+</header>
+<div class="controls">
+<section>
+    <h2>Search Anime</h2>
+
+    <label for="anime-input">Enter anime name:</label><br>
+    <input type="text" id="anime-input" placeholder="e.g. Naruto, One Piece"><br><br>
+
+    <button id="search-btn">Search</button>
+</section>
+<section>
+    <h2>Filter-genre</h2>
+    <label for="genre"> Choose Genre:</label><br>
+    <select id="genre">
+        <option value="">Any</option>
+        <option value="romance">Romance</option>
+        <option value="comedy">Comedy</option>
+        <option value="horror">Horror</option>
+        <option value="sci-fi">Sci-Fi</option>
+        <option value="action">Action</option>
+        </select>
+</section>
+
+    </div>
+<section>
+    <h2>Recommendations</h2>
+    <div id="results">
+
+</section>
+</div>
+</div>
+</body>
+</html>
